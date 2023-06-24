@@ -10,27 +10,31 @@ header {
     align-items: center;
     background-color: #30353D;
     color: #92CCCE;
-    padding: 1% 5%;
+    padding: 2% 0%;
 }
 
 h1 {
     display: flex;
+    justify-content: right;
     color: #30353D;
     background-color: #92CCCE;
     font-size: 200%;
+    min-width: 350px;
 }
 
 header ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     min-width: 400px;
     font-size: 125%;
+    padding: 4%;
 }
 
-.fence {
-    height: 100%;
+figure {
+    height: 200px;
     width: 100%;
     background-image: url(../images/02-hero-bg.jpg);
+    background-size: cover;
 }
 
 nav a {
@@ -40,4 +44,5 @@ nav a {
 
 h2 {
     border-right: 5px solid #445877;
+    font-size: 200%;
 }
