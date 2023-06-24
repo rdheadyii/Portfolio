@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #30353D;
+    color: #92CCCE;
+    padding: 1% 5%;
+}
+
+h1 {
+    display: flex;
+    color: #30353D;
+    background-color: #92CCCE;
+    font-size: 200%;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+    font-size: 125%;
+}
+
+.fence {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/02-hero-bg.jpg);
+}
+
+nav a {
+    display: flex;
+    color: #92CCCE;
+}
+
+h2 {
+    border-right: 5px solid #445877;
+}
