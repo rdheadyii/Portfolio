@@ -36,7 +36,11 @@ nav a {
     color: #92CCCE;
 }
 
-figure {
+.backg {
+    position: relative;
+}
+
+.fence {
     height: 200px;
     width: 100%;
     background-image: url(../images/02-hero-bg.jpg);
@@ -46,11 +50,12 @@ figure {
 main {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 section {
     display: flex;
-    padding: 3% 2%;
+    padding: 2% 2%;
 }
 
 h2 {
@@ -58,12 +63,29 @@ h2 {
     font-size: 200%;
     text-align: end;
     color: #445877;
-    padding: 0% 1% 0% 8%;
+    padding-right: 1%;
+    margin-left: 6%;
+    float: left;
 }
 
 p {
     padding: 0% 2%;
 }
+
+.imgs {
+    flex-wrap: wrap;
+}
+
+.box {
+    position: relative;
+}
+
+.img1 {
+    height: 45%;
+    width: 100%;
+}
+
+
 
 @media screen and (max-width: 768px) {
     header,
