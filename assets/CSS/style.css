@@ -75,6 +75,13 @@ a:link {
     background-color: #92CCCE;
 }
 
+.profile {
+    position: absolute;
+    width: 150px;
+    height: 70%;
+    left: 50%;
+}
+
 /* main body */
 main {
     background-color: #EEEEF7;
@@ -173,6 +180,7 @@ p {
 img:hover {
     cursor: pointer;
     opacity: 1;
+    transition: 0.75s;
 }
 
 /* CSS for contact me section */
