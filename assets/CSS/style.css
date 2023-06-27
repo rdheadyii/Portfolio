@@ -29,7 +29,7 @@ h1 {
     color: #30353D;
     background-color: #92CCCE;
     font-size: 300%;
-    min-width: 550px;
+    min-width: 500px;
 }
 
 /* CSS for navigation in header */
@@ -37,9 +37,8 @@ header ul {
     display: flex;
     justify-content: space-evenly;
     font-size: 125%;
-    background-color: red;
-    gap: 60px;
-    min-width: 500px;
+    gap: 50px;
+    /* min-width: 500px; */
 }
 
 .topnav a {
@@ -47,6 +46,7 @@ header ul {
     color: #92CCCE;
     border-bottom: 3px solid #92CCCE;
     white-space: nowrap;
+    flex-basis: auto;
 }
 
 a:link {
@@ -94,7 +94,8 @@ h2 {
     font-size: 300%;
     text-align: right;
     color: #445877;
-    padding-right: 2%;
+    padding: 0% 1% 0% 0%;
+
     width: 20%;
 }
 
@@ -145,6 +146,7 @@ p {
     bottom: 40px;
     color: #30353D;
     background-color: #92CCCE;
+    flex-basis: auto;
 }
 
 .bottoml h3{
@@ -185,7 +187,7 @@ section ul li a:visited {
 }
 
 section ul li a:link {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #445877;
 }
 
@@ -211,6 +213,7 @@ section ul li a:link {
 .bottomnav ul li {
     color: var(--darkblue);
     border-bottom: 3px solid var(--darkblue);
+    flex-basis: auto;
 }
 
 
@@ -231,10 +234,6 @@ section ul li a:link {
     main,
     .bottomnav ul {
         flex-direction: column;
-    }
-
-    .bottomnav ul {
-        align-self: flex-start;
     }
 
     section {
