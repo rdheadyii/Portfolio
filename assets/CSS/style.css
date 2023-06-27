@@ -202,6 +202,7 @@ img:hover {
     justify-content: space-evenly;
     min-width: 100%;
     font-size: 125%;
+
 }
 
 .bottomnav ul li {
@@ -214,19 +215,8 @@ img:hover {
 /* media queries to not break website on other devices */
 @media screen and (max-width: 768px) {
     header,
-    main {
-        flex-direction: column;
-    }
-
-    section {
-        padding-right: 0;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    header,
     main,
-    .bottomnav ul {
+    #work {
         flex-direction: column;
     }
 
@@ -237,8 +227,10 @@ img:hover {
 
 @media screen and (max-width: 1057px) {
     header,
-    main {
+    main,
+    .bottomnav ul {
         flex-direction: column;
+        align-items: center;
     }
 
     section {
