@@ -78,8 +78,9 @@ a:link {
 .profile {
     position: absolute;
     width: 150px;
-    height: 70%;
+    height: 60%;
     left: 50%;
+    top: 10%;
 }
 
 /* main body */
